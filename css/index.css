@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.img-class {
+    width: 100px;
+    padding: 15px 15px 15px 15px;
+    float: left;
+    border-radius: 50%;
+}
+
+.box {
+    /* border: 1px solid lightslategrey; */
+    margin: 5px 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 200px;
+    grid-template-rows: 150px 450px 50px;
+    grid-template-areas: "hd hd hd hd hd hd"
+    "sd main main main main main"
+    "ft ft ft ft ft ft";
+}
+
+
+.header {
+    font-size: 24px;
+    text-align: center;
+    color: #9393A5;
+    grid-area: hd;
+    }
+
+.sidebar {
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+    grid-gap: 10px;
+    grid-area: sd;
+}
+
+.sidebar-link {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    align-items: stretch;
+    justify-content: space-evenly;
+    grid-gap: 5px;
+    color: #80e1ff;
+}
+/* 
+.sidebar-button {
+    display: flex;
+    flex-flow: column;
+    border-radius: 0.5em;
+    grid-gap: 10px;
+    padding: 5px 5px 5px 5px;
+} */
+
+.sidebar-button {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 60px 80px;
+    grid-gap: 5px;
+    grid-template-areas: "fa fa fa fa" "subscribe subscribe subscribe subscribe";
+}
+
+.sidebar-fa{
+    display: flex;
+    grid-area: fa;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px 5px 5px;
+       
+}
+
+
+.sidebar-subscribe {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    grid-area: subscribe;
+    justify-content: space-evenly;
+    padding: 0px 5px 5px 5px;
+
+}
+
+/* .sidebar-fa {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    grid-area: fa;
+    grid-gap: 5px;
+
+}
+
+.sidebar-subscribe {
+    grid-area: subscribe;
+    align-items: stretch;
+} */
+
+.link  {
+    font-size: 18px;
+    color: #5CB8D4;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #9393A5;
+    background: #efefef;
+}
+
+.btn-class {
+    padding: 10px 30px;
+    border-radius: 0.5em;
+    font-size: 15px;
+}
+
+.btn-follow {
+    color: #fff;
+    border: 1px solid 	#00b0e6;
+    background: #5CB8D4;
+} 
+
+.btn-subscribe {
+    color: #00b0e6;
+    text-decoration: none;
+    border: 1px solid #00b0e6;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+.btn-subscribe:hover {
+     background: #efefef;
+     text-decoration: none;
+}
+.fa {
+    padding: 5px;
+    font-size: 15px;
+    /* width: 50px; */
+    /* height: 20px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    /* border-radius: 0.5em; */
+}
+
+.fa-twitter {
+    color: #fff;
+    background: #5cb8d4;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: #fff;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+
+
+.content {
+    grid-area: main;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+
+.footer {
+    grid-area: ft;
+    padding: 5px 5px 5px 5px;
+    background: #676664;
+    /* color:#aaaeae; */
+    color: #B6B8B7;
+
+}
+
+/* .blog-container {
+    display: flex;
+    flex-flow: row;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+.blog {
+    width: 200px;
+    height: 320px;
+    /* color: #B6B3B2; */
+    /* color: #939590; */
+    color: #9393A5;
+    padding: 10px;
+    background: #efefef;
+    border-radius: 0.5em;
+            
+}
+
+.blog h1:hover {
+    color: #5CB8D4;
+
+}
+
+.blog:hover {
+    transition: transform 0.75s;
+    transform: scale(1.05);
+    /* color: #b3edff; */
+
+}
+
+
