@@ -1,0 +1,7 @@
+.user-response-top,.user-response-bottom {
+    padding: 10px 10px 10px 10px;
+}
+
+.user-response-top,.user-response-bottom span {
+    color: #9393a5;
+}

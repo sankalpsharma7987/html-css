@@ -1,0 +1,21 @@
+@import url("../lib/font.css");
+@import url("../lib/navigation.css");
+@import url("../lib/button.css");
+@import url("../lib/box-border.css");
+@import url("../lib/avatar-image.css");
+@import url("../lib/blog.css");
+@import url("../lib/body-format.css");
+@import url("index-layout.css");
+
+.content {
+    grid-area: main;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+
+

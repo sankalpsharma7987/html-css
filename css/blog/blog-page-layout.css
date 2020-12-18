@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas: "sdl hd hd hd hd hd hd sdr"
+    "sdl main main main main main main sdr"
+    "ft ft ft ft ft ft ft ft"
+}
+
+.header {
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    grid-template-areas: "author author author"
+    "pagenavigation pagenavigation pagenavigation"
+    "image image image";
+    color: #9393a5;
+    grid-area: hd;
+    }
+
+.sidebar-left {
+    grid-area: sdl;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.sidebar-left-author {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: #9393a5;
+    word-wrap: wrap;
+}
+
+.sidebar-right {
+    grid-area: sdr;
+    padding: 10px 10px 10px 10px;
+    color: #9393a5;
+    word-wrap: wrap;
+}
+
+.footer {
+    grid-area: ft;
+    padding: 5px 5px 5px 5px;
+    background: #676664;
+    /* color:#aaaeae; */
+    color: #b6b8b7;
+
+}

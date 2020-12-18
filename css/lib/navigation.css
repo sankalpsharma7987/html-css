@@ -1,0 +1,57 @@
+.sidebar {
+    grid-area: sd;
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+    grid-gap: 10px;
+}
+
+.sidebar-link {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    align-items: stretch;
+    justify-content: space-evenly;
+    grid-gap: 5px;
+    color: #80e1ff;
+}
+
+.sidebar-button {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 60px 80px;
+    grid-gap: 5px;
+    grid-template-areas: "fa fa fa fa" "subscribe subscribe subscribe subscribe";
+}
+
+.sidebar-fa{
+    display: flex;
+    grid-area: fa;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.sidebar-subscribe {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    grid-area: subscribe;
+    justify-content: space-evenly;
+    padding: 0px 5px 5px 5px;
+
+}
+
+
+.link  {
+    font-size: 18px;
+    color: #5cb8d4;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #9393a5;
+    background: #efefef;
+}

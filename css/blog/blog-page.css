@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300&display=swap");
+@import url("../lib/font.css");
+@import url("../lib/navigation.css");
+@import url("../lib/button.css");
+@import url("../lib/box-border.css");
+@import url("../lib/avatar-image.css");
+@import url("../lib/body-format.css");
+@import url("blog-page-layout.css");
+@import url("../lib/user-response.css");
+@import url("../lib/author.css");
+@import url("../lib/blog-image.css");
+@import url("../lib/article.css");
+
+.social-links {
+    padding: 10px 10px 10px 10px;
+}
+
+.homepage{
+    text-decoration: none;
+    color: #9393a5;
+    text-align: left;
+}
+
+.homepage:hover {
+    color: #5cb8d4;
+}
+
+
+
+.avatar-image {
+    width: 75px;
+    padding: 10px 10px 10px 10px;
+    /* float: left; */
+    border-radius: 50%;
+    text-align: center;
+}
+
+.content {
+    grid-area: main;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+
+.user-response-top {
+    text-align: center;
+    grid-area: pagenavigation;
+}
+
+.user-response-top span:hover {
+    cursor: pointer;
+}
+
+.user-response-bottom span:hover {
+    cursor: pointer;
+}
+
+
+

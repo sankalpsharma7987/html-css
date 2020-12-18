@@ -1,0 +1,6 @@
+.blog-image {
+    padding: 10px 10px 10px 10px;
+    grid-area: image;
+    font-size: 16px;
+    text-align: center;
+}

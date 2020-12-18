@@ -1,0 +1,39 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 0.5em;
+}
+
+.fa-twitter {
+    color: #fff;
+    background: #5cb8d4;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: #fff;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }

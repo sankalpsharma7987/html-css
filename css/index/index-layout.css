@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 200px;
+    grid-template-rows: 150px 450px 50px;
+    grid-template-areas: "hd hd hd hd hd hd"
+    "sd main main main main main"
+    "ft ft ft ft ft ft";
+}
+
+.header {
+    font-size: 24px;
+    text-align: center;
+    color: #9393A5;
+    grid-area: hd;
+    }
+   
+.footer {
+        grid-area: ft;
+        padding: 5px 5px 5px 5px;
+        background: #676664;
+        /* color:#aaaeae; */
+        color: #B6B8B7;
+    
+}

@@ -1,0 +1,25 @@
+.btn-class {
+    padding: 10px 30px;
+    border-radius: 0.5em;
+    font-size: 15px;
+}
+
+.btn-follow {
+    color: #fff;
+    border: 1px solid 	#00b0e6;
+    background: #5cb8d4;
+} 
+
+.btn-subscribe {
+    color: #00b0e6;
+    text-decoration: none;
+    border: 1px solid #00b0e6;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+.btn-subscribe:hover {
+     background: #efefef;
+     text-decoration: none;
+}

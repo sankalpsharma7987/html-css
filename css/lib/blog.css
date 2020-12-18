@@ -1,0 +1,26 @@
+.blog {
+    width: 200px;
+    height: 320px;
+    color: #9393a5;
+    padding: 10px;
+    background: #efefef;
+    border-radius: 0.5em;
+    cursor: pointer;
+            
+}
+
+.blog a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog h1:hover {
+    color: #5cb8d4;
+
+}
+
+.blog:hover {
+    transition: transform 0.5s;
+    transform: scale(1.20);
+
+}

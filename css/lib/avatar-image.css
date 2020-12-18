@@ -1,0 +1,11 @@
+.avatar-image {
+    width: 100px;
+    padding: 15px 15px 15px 15px;
+    float: left;
+    border-radius: 50%;
+}
+
+.avatar-image:hover {
+    cursor: pointer;
+
+}
