@@ -14,8 +14,34 @@
     flex-flow: row;
     align-items: center;
     justify-content: space-evenly;
-   
 }
 
+.sidebar-fa {
+    display: flex;
+    grid-area: fa;
+    flex-flow: row;
+    color: #9393a5;
+    /* align-items: stretch; */
+    justify-content: center;
+}
 
+@media(min-width:1100px) {
 
+    .container {
+        display: grid;
+        grid-template-columns: 300px 300px 200px;
+        grid-template-rows: 150px 450px 50px;
+        grid-template-areas: "hd hd hd hd hd hd"
+        "sd main main main main main"
+        "ft ft ft ft ft ft";
+    }   
+
+    .sidebar-fa {
+        display: flex;
+        grid-area: fa;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}

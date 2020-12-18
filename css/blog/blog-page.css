@@ -11,11 +11,17 @@
 @import url("../lib/blog-image.css");
 @import url("../lib/article.css");
 
+.btn-class {
+    padding: 5px 30px;
+    border-radius: 0.5em;
+    font-size: 15px;
+}
+
 .social-links {
     padding: 10px 10px 10px 10px;
 }
 
-.homepage{
+.homepage {
     text-decoration: none;
     color: #9393a5;
     text-align: left;
@@ -24,8 +30,6 @@
 .homepage:hover {
     color: #5cb8d4;
 }
-
-
 
 .avatar-image {
     width: 75px;
@@ -42,8 +46,6 @@
     flex-flow: column;
     align-items: center;
     justify-content: space-evenly;
-
-    
 }
 
 .user-response-top {
@@ -59,5 +61,20 @@
     cursor: pointer;
 }
 
+@media (min-width: 900px) {
 
+    .container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-areas: "sdl hd hd hd hd hd hd sdr"
+            "sdl main main main main main main sdr"
+            "ft ft ft ft ft ft ft ft";
+        }
 
+    .btn-class {
+        padding: 10px 30px;
+        border-radius: 0.5em;
+        font-size: 15px;
+        }
+        
+ }

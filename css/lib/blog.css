@@ -2,11 +2,11 @@
     width: 200px;
     height: 320px;
     color: #9393a5;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     background: #efefef;
     border-radius: 0.5em;
     cursor: pointer;
-            
+    line-height: 1.6;
 }
 
 .blog a {
@@ -22,5 +22,4 @@
 .blog:hover {
     transition: transform 0.5s;
     transform: scale(1.20);
-
 }
