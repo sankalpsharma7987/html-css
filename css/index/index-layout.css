@@ -16,10 +16,8 @@
 }
    
 .footer {
-        grid-area: ft;
-        padding: 5px 5px 5px 5px;
-        background: #676664;
-        /* color:#aaaeae; */
-        color: #B6B8B7;
-    
+    grid-area: ft;
+    padding: 5px 5px 5px 5px;
+    background: #676664;
+    color: #B6B8B7;
 }

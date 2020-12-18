@@ -11,6 +11,8 @@
 @import url("../lib/blog-image.css");
 @import url("../lib/article.css");
 
+/* Introduced padding in the btn-class to change for screen size lower than 900px*/
+
 .btn-class {
     padding: 5px 30px;
     border-radius: 0.5em;
@@ -60,6 +62,8 @@
 .user-response-bottom span:hover {
     cursor: pointer;
 }
+
+/* Includes logic to expand the template size if the width of the screen is 900px or more */
 
 @media (min-width: 900px) {
 

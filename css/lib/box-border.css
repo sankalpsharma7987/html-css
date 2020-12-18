@@ -1,4 +1,6 @@
 .box {
+    /*Uncomment this border value to troubleshoot errors*/
+
     /* border: 1px solid lightslategrey; */
     margin: 5px 5px;
 }

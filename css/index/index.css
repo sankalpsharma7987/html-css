@@ -16,14 +16,19 @@
     justify-content: space-evenly;
 }
 
+/* Introduced color for the text. This property is missing in the sidebar-fa class present under the navigation.css file
+   Removed align-item center for this property for screen resolution lower than 1100px;
+*/
+
 .sidebar-fa {
     display: flex;
     grid-area: fa;
     flex-flow: row;
     color: #9393a5;
-    /* align-items: stretch; */
     justify-content: center;
 }
+
+/* Includes logic to expand the template size if the width of the screen is 1100px or more */
 
 @media(min-width:1100px) {
 
@@ -35,7 +40,7 @@
         "sd main main main main main"
         "ft ft ft ft ft ft";
     }   
-
+    
     .sidebar-fa {
         display: flex;
         grid-area: fa;
@@ -43,5 +48,5 @@
         align-items: center;
         justify-content: space-between;
     }
-    
+
 }
