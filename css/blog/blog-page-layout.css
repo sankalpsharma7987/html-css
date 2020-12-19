@@ -17,9 +17,11 @@
     display: grid;
     grid-area: hd;
     padding: 10px 10px 10px 10px;
-    grid-template-areas: "author author author"
-    "pagenavigation pagenavigation pagenavigation"
-    "image image image";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "author"
+    "pagenavigation"
+    "image";
     color: #9393a5;
 }
 
@@ -28,6 +30,7 @@
     padding: 10px 10px 10px 10px;
     color: #9393a5;
 }
+
 
 .sidebar-right {
     grid-area: sdr;

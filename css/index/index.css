@@ -41,8 +41,8 @@
 
     .container {
         display: grid;
-        grid-template-columns: 300px 300px 200px;
-        grid-template-rows: 150px 450px 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas: "hd hd hd hd hd hd"
         "sd main main main main main"
         "ft ft ft ft ft ft";

@@ -45,8 +45,9 @@
     grid-area: main;
     padding: 10px 10px 10px 10px;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     flex-wrap: wrap;
+/* Introduced flex-wrap property to wrap the column value and get the column drop pattern in the responsive design */
     align-items: center;
     justify-content: space-evenly;
 }
@@ -70,10 +71,12 @@
 
     .container {
         display: grid;
-        grid-template-columns: 300px 300px 300px;
-        grid-template-areas: "sdl hd hd hd hd hd hd sdr"
-            "sdl main main main main main main sdr"
-            "ft ft ft ft ft ft ft ft";
+        /* grid-template-columns: 300px 300px 300px; */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "sdl hd hd sdr"
+            "sdl main main sdr"
+            "ft ft ft ft";
         }
 
     .btn-class {
