@@ -12,8 +12,15 @@
     padding: 10px 10px 10px 10px;
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+
+/* Changed the items in the sidebar to stretch, for the hover color to take complete effect */
+
+.sidebar {
+    align-items: stretch;
 }
 
 /* Introduced color for the text. This property is missing in the sidebar-fa class present under the navigation.css file

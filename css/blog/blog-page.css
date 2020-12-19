@@ -46,6 +46,7 @@
     padding: 10px 10px 10px 10px;
     display: flex;
     flex-flow: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }

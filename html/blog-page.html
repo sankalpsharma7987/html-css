@@ -18,13 +18,13 @@
 
     <body>
 
-    <div class="container">
+    <main class="container">
 
-        <div class="box header">
+        <header class="box header">
 
-            <div class="box author">
+            <section class="box author">
 
-                <div class="box author-header">
+                <section class="box author-header">
                     <a class="homepage" href="index.html"> Back to Home </a>
                     <h1> My First Blog </h1>
                     <h3> My first attempt towards blogging </h3>
@@ -32,20 +32,20 @@
                     <span class="box article-info">
                         <b> Sankalp Sharma </b>. December 16 2020. 10 Min Read *** 
                     </span>
-                </div>
+                </section>
 
-                <div class="box social-links">
+                <section class="box social-links">
                     <b> Share: </b>
                     <a href="#" class="box fa fa-twitter" title="Twitter"></a>
                     <a href="#" class="box fa fa-linkedin" title="LinkedIn"></a>
                     <a href="#" class="box fa fa-facebook" title="FaceBook"></a>
                     <a href="#" class="box fa fa-snapchat-ghost" title="SnapChat"></a>
-                </div>
+                </section>
 
-            </div>
+            </section>
 
             
-            <div class="box user-response-top">
+            <section class="box user-response-top">
 
                 <a href="index.html" class="homepage"> <b> &lt;&lt; Previous </b> </a> &nbsp; &nbsp; &nbsp; &nbsp;
                 <span> Like &#128077;&#127995;1K </span> &nbsp; &nbsp; &nbsp; &nbsp;
@@ -53,33 +53,40 @@
                 <span> Comment &#128172;1K </span> &nbsp; &nbsp; &nbsp; &nbsp;
                 <a href="index.html" class="homepage"> <b> Next &gt;&gt; </b> </a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-            </div>
+            </section>
            
-
-            <div class="box blog-image">
+            <!-- Removed div tag and replaced it with figure tag and added figCaption tag -->
+            <!-- <div class="box blog-image"> -->
+            <figure class="box blog-image">
 
                 <img src="../images/happy-space.jpeg">
-                
-            </div>
+                <figcaption> My Happy Space in Florida </figcaption>
 
-        </div>
+            </figure>
+
+                
+                
+
+
+        </header>
         
-        <div class="box sidebar-left">
+        <section class="box sidebar-left">
 
                 <p>
                     WRITTEN BY<br>
                     <b> Sankalp Sharma </b><br>
                     I like to travel, read, meditate and love interacting with people. I do Software Development for work.
                 </p>
-                <a href="#" class="btn-class btn-subscribe">
+                <!-- Replaced the anchor tag with the button tag -->
+                <button href="#" class="btn-class btn-subscribe">
                     <b> SUBSCRIBE </b>
-                </a>
+                </button>
                 
-        </div>
+        </section>
        
-        <div class="box content">
+        <section class="box content">
 
-            <div class="box article">
+            <article class="box article">
 
                 <p>
                     This is my First Blog. I don't remember of writing anything ever but, as a kid, I remember of journaling my thoughts.
@@ -119,9 +126,9 @@
                     So your food for thought for today, is to find your Happy Space and mention it in the comment section. I am excited to start this journey and I look forward to read your comments.
                 </p>
 
-            </div>
+            </article>
 
-            <div class="box user-response-bottom">
+            <section class="box user-response-bottom">
 
                 <a href="index.html" class="homepage"> <b> &lt;&lt; Previous </b> </a> &nbsp; &nbsp; &nbsp; &nbsp;
                 <span> Like &#128077;&#127995;1K </span> &nbsp; &nbsp; &nbsp; &nbsp;
@@ -129,23 +136,23 @@
                 <span> Comment &#128172;1K </span> &nbsp; &nbsp; &nbsp; &nbsp;
                 <a href="index.html" class="homepage"> <b> Next &gt;&gt; </b> </a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-            </div>
+            </section>
 
-        </div>
+        </section>
 
-        <div class="box sidebar-right">
+        <section class="box sidebar-right">
 
             SideBar Right for Advertisements
 
-        </div>
+        </section>
 
-        <div class="box footer">
+        <footer class="box footer">
 
-            <b> &copy; Copyright 2020. Product of DesignQore Inc </b>
+            <b> <small> &copy; Copyright 2020. Product of DesignQore Inc </small> </b>
              
-        </div>
+        </footer>
 
-    </div>
+    </main>
 
 
     </body>

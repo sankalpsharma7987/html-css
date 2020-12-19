@@ -12,21 +12,21 @@
 		<meta  name="viewport" content="width=device-width, initial-scale=1"/>
 		
 	</head>
-
+	<!-- Replaced div tags with meaningful semantic tags such as header,footer,main,article and section tags -->
 	<body>
 
-		<div class="container">
+		<main class="container">
 			
-			<div class="box header">
+			<header class="box header">
 
 				<img class="avatar-image" src="../images/my_image.jpg"/>
 				<h1> My Happy Space... </h1>
 
-			</div>
+			</header>
 
-			<div class="box sidebar">
+			<section class="box sidebar">
 
-				<div class="box sidebar-link">
+				<nav class="box sidebar-link">
 
 					<a href="#" class="link"> Blogs </a>
 					<a href="#" class="link"> Videos </a>
@@ -34,11 +34,11 @@
 					<a href="#" class="link"> About Me </a>
 					<a href="#" class="link"> Contact Us </a>
 
-				</div>
+				</nav>
 
-				<div class="box sidebar-button">
+				<section class="box sidebar-button">
 
-						<div class="box sidebar-fa">
+						<section class="box sidebar-fa">
 							
 							<p> <b> FOLLOW: </b> </p>
 							<a href="#" class="box fa fa-twitter" title="Twitter"></a>
@@ -46,23 +46,23 @@
 							<a href="#" class="box fa fa-facebook" title="FaceBook"></a>
 							<a href="#" class="box fa fa-snapchat-ghost" title="SnapChat"></a>
 
-						</div>
+						</section>
 
-						<div class="box sidebar-subscribe">
-
-							<a href="#" class="btn-class btn-subscribe">								
+						<section class="box sidebar-subscribe">
+							<!-- Replaced the anchor tag with the button tag -->
+							<button href="#" class="btn-class btn-subscribe">								
 								<b> SUBSCRIBE </b>
-							</a>
+							</button>
 
-						</div>
+						</section>
 
-				</div>
+				</section>
 
-			</div>
+			</section>
 		
-			<div class="box content">
+			<section class="box content">
 
-				<div class="blog">
+				<article class="blog">
 
 					<a href="blog-page.html">
 						<h1> My first Blog </h1>
@@ -73,10 +73,10 @@
 						</p>
 					</a>
 					
-				</div>
+				</article>
 
 
-				<div class="blog">
+				<article class="blog">
 
 					<a href="#">
 						<h1> What Is Life?  </h1>
@@ -86,10 +86,10 @@
 						</p>
 					</a>
 					
-				</div>
+				</article>
 
 
-				<div class="blog">
+				<article class="blog">
 
 					<a href="#">
 						<h1> Art of Ignorance?  </h1>
@@ -99,17 +99,17 @@
 						</p>
 					</a>
 
-				</div>
+				</article>
 
-			</div>
+			</section>
 
-			<div class="box footer">
+			<footer class="box footer">
 
-				<b> &copy; Copyright 2020. Product of DesignQore Inc </b>
+				<b> <small> &copy; Copyright 2020. Product of DesignQore Inc </small> </b>
 				
-			 </div>
+			</footer>
 
-		</div>
+		</main>
 		
 	</body>
 

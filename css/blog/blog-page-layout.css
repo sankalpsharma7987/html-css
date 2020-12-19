@@ -1,6 +1,11 @@
+
+/* Removed a fixed value for grid-template-columns and grid-template-rows property and set it to 1fr and auto respectively,
+   in the container class, in order to render the image correctly in the mobile devices */
+
 .container {
     display: grid;
-    grid-template-columns: 850px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     grid-template-areas: "hd"
     "main"
     "sdl"
