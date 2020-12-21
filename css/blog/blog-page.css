@@ -10,6 +10,7 @@
 @import url("../lib/author.css");
 @import url("../lib/blog-image.css");
 @import url("../lib/article.css");
+@import url("../lib/img-resize.css");
 
 /* Introduced padding in the btn-class to change for screen size lower than 900px*/
 
@@ -70,13 +71,18 @@
 @media (min-width: 900px) {
 
     .container {
-        display: grid;
-        /* grid-template-columns: 300px 300px 300px; */
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: "sdl hd hd sdr"
-            "sdl main main sdr"
-            "ft ft ft ft";
+        "sdl main main sdr"
+        "ft ft ft ft";
+        }
+
+    .header {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "author author author author"
+        "pagenavigation pagenavigation pagenavigation pagenavigation"
+        "image image image image";
         }
 
     .btn-class {

@@ -1,0 +1,7 @@
+/* Change the width of the blog image to fit and not overflow the page. The below code will inherit the width value from the parent element.
+which is figure semantic tag and will has css class as blog-image*/
+
+.img-resize {
+    width: 100%;
+    height: 100%;
+}
